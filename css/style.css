@@ -150,12 +150,6 @@ section.aboutme{
     padding: 6rem 0 ;
     
 }
-.aboutme .container {
-    display:flex;
-    flex-wrap:wrap;
- 
-  
-}
 
 section.about.aboutmeimg{
     height: 450px;
