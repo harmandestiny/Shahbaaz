@@ -247,5 +247,8 @@ section.latest .video-slider .video-cart{
 
 .videos{
     padding-bottom: 9rem;
-    display: flex;
+}
+.videos . container {
+    display:flex;
+    flex-wrap:wrap;
 }
