@@ -247,4 +247,5 @@ section.latest .video-slider .video-cart{
 
 .videos{
     padding-bottom: 9rem;
+    display: flex;
 }
