@@ -182,6 +182,8 @@ section .left2 .logo1{
     gap: 15px;               /* Space between logos */
     padding: 3px; 
     cursor: pointer;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 section.latest{
