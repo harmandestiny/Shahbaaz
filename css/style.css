@@ -150,6 +150,13 @@ section.aboutme{
     padding: 6rem 0 ;
     
 }
+.aboutme .container {
+    display:flex;
+    flex-wrap:wrap;
+ 
+  
+}
+
 section.about.aboutmeimg{
     height: 450px;
  
@@ -171,6 +178,9 @@ section.aboutme .left2 p{
 section .left2 {
     width: 500px;
     margin-left: 10rem;
+}
+section .pic2{
+    
 }
 section .left2 .logo1{
     max-width: 30px;        /* Set maximum width for logos */
