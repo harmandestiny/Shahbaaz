@@ -44,7 +44,7 @@
     .branding img {
         width: 250px;
         height: 70px;
-        
+        position:20%;
     }
     
     header nav .right {
