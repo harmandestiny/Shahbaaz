@@ -22,7 +22,7 @@
     header nav .left a:hover {
         color: var(--pure);
     }
-    .nav-links {
+  header nav .right .nav-links {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -33,11 +33,11 @@
         text-align: center;
     }
 
-   .nav-links li {
+   header nav .right .nav-links li {
         margin: 15px 0;
     }
 
-    .hamburger {
+    header nav .right .nav-links .hamburger {
         display: block;
     }
     
