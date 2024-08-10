@@ -10,7 +10,7 @@ $(document).ready(function(){
     nextArrow: ".next-btn",
     responsive: [
       {
-        breakpoint: 360, // Adjust this value to the maximum width of your mobile view
+        breakpoint: 760, // Adjust this value to the maximum width of your mobile view
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
