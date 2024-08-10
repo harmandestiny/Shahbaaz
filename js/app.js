@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     $('.video-slider').slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -10,3 +10,7 @@ $(document).ready(function(){
     nextArrow:".next-btn",
   })
 })
+document.getElementById('hamburger').addEventListener('click', function () {
+  var navLinks = document.getElementById('nav-links');
+  navLinks.classList.toggle('active');
+});
