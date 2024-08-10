@@ -13,8 +13,8 @@ $(document).ready(function(){
         breakpoint: 768, // Adjust this value to the maximum width of your mobile view
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
-          autoplay: false,
+          slidesToScroll: 1,
+          autoplay: false
         }
       }
     ]
