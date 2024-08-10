@@ -22,6 +22,24 @@
     header nav .left a:hover {
         color: var(--pure);
     }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: var(--pure);
+        text-align: center;
+    }
+
+   .nav-links li {
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
     
     .branding img {
         width: 250px;
@@ -270,6 +288,9 @@
     --pure: #dfdfd9;
     --ternary: #898989;
     --light: #f2f2f2;
+}
+.nav-links.active {
+    display: flex;
 }
 
 * {
