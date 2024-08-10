@@ -8,7 +8,7 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
     prevArrow: ".prev-btn",
     nextArrow: ".next-btn",
-  });
+  })
 });
 document.getElementById('hamburger').addEventListener('click', function () {
   var navLinks = document.getElementById('nav-links');
