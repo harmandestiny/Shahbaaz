@@ -82,6 +82,14 @@
         position: absolute;
         bottom: -40px;
     }
+    .spotify{
+    margin-left: auto ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    
+}
     /* BodyEnd */
     
     
@@ -100,10 +108,7 @@
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         margin-left: 8rem;
     }
-    .home .mainbody .spotify {
-        margin-left: 50rem;
-        width: 400px;
-    }
+    
     /* Home Section End */
     
     
@@ -363,6 +368,14 @@ header nav .branding {
     position: absolute;
     bottom: -40px;
 }
+    .spotify{
+    margin-left: auto ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    
+}
 /* BodyEnd */
 
 
@@ -387,10 +400,7 @@ header nav .branding {
     margin-right: 12rem;
     width: 400px;
 }
-.home .mainbody .spotify {
-    /* margin-left: 50rem; */
-    width: 400px;
-}
+
 /* Home Section End */
 
 
