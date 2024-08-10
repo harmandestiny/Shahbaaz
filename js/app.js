@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   $('.video-slider').slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -12,7 +12,7 @@ $(document).ready(function(){
       {
         breakpoint: 768, // Adjust this value to the maximum width of your mobile view
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: false
         }
