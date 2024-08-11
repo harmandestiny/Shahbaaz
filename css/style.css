@@ -11,53 +11,28 @@
         margin: 0 auto;
     }
     
-  header nav .right .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: var(--pure);
-        text-align: center;
-    }
-
-   header nav .right .nav-links li {
-        margin: 15px 0;
-    }
-
-   .hamburger {
-        display: block;
-        color: var(--primary);
-        margin-left: 3rem;
-    }
     
     .branding {
         width: 80px;
         height: 70px;
         position:center;
         display:block;
+        
     }
+ 
     
-    header nav .right {
-        margin-right: 2rem;
-        align-items: center;
-        gap: 20px;
-        padding: 5px;
-        cursor: pointer;
+    .right {
+        margin-right: 9rem;
+        gap: 13px;
+        display: flex;
+        flex-direction: column;
     }
-    
     .logo {
-        max-width: 10px;
+        max-width: 1rem;
         height: auto;
         justify-content: space-between;
     }
 
-    
-    header nav {
-        padding: -1rem 0;
-    }
-    
     header nav .branding {
         margin-right: 2rem;
         display: inline-block;
@@ -96,31 +71,42 @@
 
 .prev-btn2 {
 
-    top: 288%;
+    top: 261%;
     right: 3rem;
 
 }
 
 .next-btn2 {
-    top: 288%;
+    top: 261%;
     left: 3rem;
 }
 .prev-btn {
     position: absolute;
-    top: 185%;
+    top: 167%;
     right: 3rem;
     z-index: 1;
 }
 
 .next-btn {
     position: absolute;
-    top: 185%;
+    top: 167%;
     left: 3rem;
     z-index: 1;
 }
 .btn-wrapper {
     padding-bottom: 3rem;
 }
+.right {
+    margin-right: 9rem;
+    gap: 13px;
+ 
+}
+.logo {
+    max-width: 2rem;
+    height: auto;
+    justify-content: space-between;
+}
+
 }
 
 
@@ -131,9 +117,7 @@
     --ternary: #898989;
     --light: #f2f2f2;
 }
-.nav-links.active {
-    display: flex;
-}
+
 
 * {
     padding: 0;
@@ -167,32 +151,20 @@ header .left a:hover {
 .branding img {
     width: 350px;
     height: 100px;
-    margin-right: 4rem;
-}
-
-header nav .right {
     margin-right: 2rem;
-    align-items: center;
-    gap: 20px;
-    padding: 5px;
+}
+
+.right {
+
+    padding: 10px;
     cursor: pointer;
-}
-
-.logo {
-    max-width: 40px;
-    height: auto;
-    justify-content: space-between;
+    
 }
 
 
 
-header nav {
-    padding: -1rem 0;
-}
 
-header nav .branding {
-    margin-right: 3rem;
-}
+
 
  /* Header End */
 
