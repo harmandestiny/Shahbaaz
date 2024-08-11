@@ -1,9 +1,9 @@
 @import 'utilities.css';
-@media (max-width: 360px) {
+@media (max-width: 390px) {
 
     /* Header */
     header {
-        height: 100px;
+        height: 10rem;
     }
     .container {
         max-width: 390px;
@@ -26,12 +26,14 @@
         margin: 15px 0;
     }
 
-    header nav .right .nav-links .hamburger {
+   .hamburger {
         display: block;
+        color: var(--primary);
+        margin-left: 3rem;
     }
     
-    .branding img {
-        width: 150px;
+    .branding {
+        width: 80px;
         height: 70px;
         position:center;
         display:block;
@@ -57,14 +59,16 @@
     }
     
     header nav .branding {
-        margin-right: 3rem;
+        margin-right: 2rem;
         display: inline-block;
     }
     header .left a {
  
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
     
-}
+    }
     
      /* Header End */
     
@@ -77,32 +81,10 @@
     
      section.home{
         background-size: cover;
-        background-position: 90%; 
+        background-position: 40%; 
     }
     
     /* Home Section End */
-
-    .prev-btn {
-    top: 150%;
-   right:8rem;
-}
-
-.next-btn {
-    top: 150%;
-    left: 10rem
-    
-}
-     .prev-btn2 {
-
-    top: 200%;
-    right: 14rem;
-
-}
-
-.next-btn2 {
-    top: 200%;
-    left: 12rem;
-}
     
     /* About me Section END */
   
@@ -111,30 +93,35 @@
 @media (max-width: 1920px)
 /* Next-previouse Buttons */
 {
-    .prev-btn {
-    top: 150%;
-   right:8rem;
-}
 
-.next-btn {
-    top: 150%;
-    left: 8rem
-    
-}
-     .prev-btn2 {
+.prev-btn2 {
 
-    top: 250%;
-    right: 10rem;
+    top: 288%;
+    right: 3rem;
 
 }
 
 .next-btn2 {
-    top: 250%;
-    left: 12rem;
+    top: 288%;
+    left: 3rem;
+}
+.prev-btn {
+    position: absolute;
+    top: 185%;
+    right: 3rem;
+    z-index: 1;
 }
 
+.next-btn {
+    position: absolute;
+    top: 185%;
+    left: 3rem;
+    z-index: 1;
 }
-
+.btn-wrapper {
+    padding-bottom: 3rem;
+}
+}
 
 
 :root {
@@ -156,7 +143,7 @@
 }
    /* Header */
 header {
-    height: 120px;
+    height: 100px;
   
 }
 .container {
@@ -350,7 +337,7 @@ button:hover {
     padding: 0;
   }
 
-  .prev-btn2 {
+ .prev-btn2 {
     position: absolute;
     transform: translateY(-50%);
     z-index: 1;
@@ -387,27 +374,13 @@ button:hover {
     outline: none;
 }
 
-.prev-btn {
-    position: absolute;
-    top: 46%;
-    right: -4rem;
-    z-index: 1;
-}
 
-.next-btn {
-    position: absolute;
-    top: 46%;
-    left: -4rem;
-    z-index: 1;
-}
 
 .latest .slider {
     position: relative;
 }
 
-.btn-wrapper {
-    padding-bottom: 3rem;
-}
+
 .btn {
     padding: 0.8rem 2.5rem;
     font-size: 1rem;
@@ -417,6 +390,7 @@ button:hover {
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    margin-top: 3rem;
 }
 
 .btn-primary {
@@ -469,7 +443,7 @@ section.aboutme .left2 p {
 
 section .left2 {
     width: 500px;
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 section .left2 .logo1 {
@@ -477,7 +451,7 @@ section .left2 .logo1 {
     height: auto;
     justify-content: space-between;
     margin-top: 2rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     align-items: left;
     gap: 15px;
     padding: 3px;
@@ -485,9 +459,4 @@ section .left2 .logo1 {
 }
 
 /* About me Section END */
-}
 
-
-
-
- 
