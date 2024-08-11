@@ -3,10 +3,10 @@
 
     /* Header */
     header {
-        height: 200px;
+        height: 100px;
     }
     .container {
-        max-width: 360px;
+        max-width: 390px;
         padding: 12px;
         margin: 0 auto;
     }
@@ -31,7 +31,7 @@
     }
     
     .branding img {
-        width: 250px;
+        width: 150px;
         height: 70px;
         position:center;
         display:block;
@@ -60,6 +60,11 @@
         margin-right: 3rem;
         display: inline-block;
     }
+    header .left a {
+ 
+    margin-right: 1rem;
+    
+}
     
      /* Header End */
     
@@ -80,8 +85,13 @@
     
     /* About me Section END */
   
-  
 }
+
+@media (max-width: 1920px) {
+}
+
+
+
 :root {
     --primary: rgb(235, 194, 31);
     --dark: #161616;
@@ -359,7 +369,7 @@ section .left2 .logo1 {
 /* About me Section END */
 }
 
-@media (max-width: 1920px) {
+
 
 
  
