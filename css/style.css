@@ -1,12 +1,12 @@
 @import 'utilities.css';
-@media (max-width: 390px) {
+@media (max-width: 768px) {
 
     /* Header */
     header {
         height: 10rem;
     }
     .container {
-        max-width: 390px;
+        max-width: 768px;
         padding: 12px;
         margin: 0 auto;
     }
