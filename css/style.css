@@ -308,7 +308,10 @@ section.latest .video-slider2 .video-cart {
     padding: 0%;
     border-radius: 10px;
 }
-
+button:hover {
+    background-color: transparent;
+    color: var(--pure);
+  }
 .latest .slider-btn {
     width: 30px;
     height: 30px;
