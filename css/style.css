@@ -82,12 +82,57 @@
     
     /* Home Section End */
 
+    .prev-btn {
+    top: 150%;
+   right:8rem;
+}
+
+.next-btn {
+    top: 150%;
+    left: 10rem
+    
+}
+     .prev-btn2 {
+
+    top: 200%;
+    right: 14rem;
+
+}
+
+.next-btn2 {
+    top: 200%;
+    left: 12rem;
+}
     
     /* About me Section END */
   
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px)
+/* Next-previouse Buttons */
+{
+    .prev-btn {
+    top: 150%;
+   right:8rem;
+}
+
+.next-btn {
+    top: 150%;
+    left: 10rem
+    
+}
+     .prev-btn2 {
+
+    top: 200%;
+    right: 14rem;
+
+}
+
+.next-btn2 {
+    top: 200%;
+    left: 12rem;
+}
+
 }
 
 
@@ -276,8 +321,6 @@ section.latest .video-slider2 .video-cart {
 
 .prev-btn {
     position: absolute;
-    top: 125%;
-    right: 14rem;
     transform: translateY(-50%);
     z-index: 1;
     background-color: transparent;
@@ -286,8 +329,6 @@ section.latest .video-slider2 .video-cart {
 
 .next-btn {
     position: absolute;
-    top: 125%;
-    left: 12rem;
     transform: translateY(-50%);
     z-index: 1;
     background-color: transparent;
@@ -308,8 +349,6 @@ section.latest .video-slider2 .video-cart {
 
   .prev-btn2 {
     position: absolute;
-    top: 200%;
-    right: 14rem;
     transform: translateY(-50%);
     z-index: 1;
     background-color: transparent;
@@ -318,8 +357,6 @@ section.latest .video-slider2 .video-cart {
 
 .next-btn2 {
     position: absolute;
-    top: 200%;
-    left: 12rem;
     transform: translateY(-50%);
     z-index: 1;
     background-color: transparent;
