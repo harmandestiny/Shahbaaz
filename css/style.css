@@ -11,17 +11,6 @@
         margin: 0 auto;
     }
     
-    header nav .left a {
-        color: var(--primary);
-        text-decoration: none;
-        margin-right: 2rem;
-        text-transform: uppercase;
-        transition: all 0.3s ease;
-        font-family: 'lato';
-    }
-    header nav .left a:hover {
-        color: var(--pure);
-    }
   header nav .right .nav-links {
         display: none;
         flex-direction: column;
@@ -60,8 +49,7 @@
         height: auto;
         justify-content: space-between;
     }
-    
-    
+
     
     header nav {
         padding: -1rem 0;
@@ -73,44 +61,6 @@
     
      /* Header End */
     
-     /* body */
-     body {
-        background-color: var(--dark);
-    }
-    .section-heading {
-        font-family: 'lato';
-        text-align: center;
-        font-size: xx-large;
-        color: var(--primary);
-        position: relative;
-        margin-bottom: 4rem;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-        padding-top: 3rem;
-        padding-bottom: 1rem;
-    }
-    
-    .section-heading:after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 30px;
-        background-image: url(../images/hr.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        position: absolute;
-        bottom: -40px;
-    }
-    .spotify{
-    margin-left: auto ;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    z-index: 1000;
-    
-}
-    /* BodyEnd */
-    
-    
     /* Home Section */
     
     .home .mainbody {
@@ -118,165 +68,13 @@
         margin-bottom: 1rem;
     }
     
-    .home .intro {
-        color: var(--primary);
-        font-family: 'Great Vibes', cursive;
-        font-weight: bold;
-        font-size: xx-large;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-        margin-left: 8rem;
+     section.home{
+        background-size: cover;
+        background-position: 40%; 
     }
     
     /* Home Section End */
-    
-    
-    /* Latest Section */
-    section.latest {
-        background: transparent;
-    }
-    
-    section.latest .slider .video-slider {
-        background: transparent;
-        padding-bottom: 3rem;
-        padding-top: 2rem;
-    }
-    
-    section.latest .video-slider .video-cart {
-        background: var(--light);
-        align-items: center;
-        width: auto;
-        height: 350px;
-        overflow: hidden;
-        padding: 0%;
-        border-radius: 10px;
-    }
-    
-    
-    
-    .slick-slide {
-        margin: 0 40px;
-    }
-    
-    .slick-list {
-        margin: 0 -27px;
-    }
-    
-    .latest .slider-btn {
-        width: 30px;
-        height: 30px;
-        border: none;
-        background: var(--primary);
-        border-radius: 8px;
-        cursor: pointer;
-        outline: none;
-    }
-    
-    .prev-btn {
-        position: absolute;
-        top: 46%;
-        right: -4rem;
-        z-index: 1;
-    }
-    
-    .next-btn {
-        position: absolute;
-        top: 46%;
-        left: -4rem;
-        z-index: 1;
-    }
-    
-    .latest .slider {
-        position: relative;
-    }
-    
-    .btn-wrapper {
-        padding-bottom: 3rem;
-    }
-    .btn {
-        padding: 0.8rem 2.5rem;
-        font-size: 1rem;
-        font-weight: 600;
-        border: 2px solid transparent;
-        outline: none;
-        cursor: pointer;
-        text-transform: uppercase;
-        transition: all 0.3s ease;
-    }
-    
-    .btn-primary {
-        background: var(--primary);
-        color: var(--dark);
-        border-radius: 10px;
-    }
-    
-    .btn-primary:hover {
-        background: transparent;
-        border-color: var(--primary);
-        color: var(--primary);
-    }
-    /* Latest Section End */
-    
-    /* Youtube Video Section */
-    .videos {
-        padding-bottom: 9rem;
-    }
-    
-    .videos .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .videos .card {
-        margin: 10px;
-    }
-    /*Youtube Video Section End */
-    
-    /* About me Section  */
-    .aboutme {
-        font-family: 'lato';
-        color: var(--pure);
-        background-color: var(--dark);
-    }
-    section.aboutme {
-        padding: 6rem 0;
-    }
-    section.about.aboutmeimg {
-        height: 450px;
-    }
-    
-    section .left2 h1 {
-        color: var(--pure);
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    section .left2 h1 span {
-        color: var(--primary);
-    }
-    
-    section.aboutme .left2 p {
-        font-family: 'lato';
-        font-size: 1.5rem;
-    }
-    
-    section .left2 {
-        width: 500px;
-        margin-left: 10rem;
-    }
-    
-    section .left2 .logo1 {
-        max-width: 30px;
-        height: auto;
-        justify-content: space-between;
-        margin-top: 2rem;
-        margin-right: 2rem;
-        align-items: left;
-        gap: 15px;
-        padding: 3px;
-        cursor: pointer;
-    }
+
     
     /* About me Section END */
   
@@ -299,12 +97,7 @@
     box-sizing: border-box;
     --webkit-font-smotthing: antialiased;
 }
-
-
-@media (max-width: 1920px) {
-
-
-    /* Header */
+   /* Header */
 header {
     height: 120px;
   
@@ -407,15 +200,6 @@ header nav .branding {
     margin-bottom: 1rem;
 }
 
-.home .intro {
-    color: var(--primary);
-    font-family: 'Great Vibes', cursive;
-    font-weight: bold;
-    font-size: xx-large;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-    margin-left: 8rem;
-}
-
 .home .mainbody .homepic {
     margin-left: 7rem;
     margin-right: 12rem;
@@ -516,22 +300,6 @@ section.videos {
     padding-bottom: 4rem;
     border-radius: 12px;
 }
-.img-wrapper {
-    border-radius: 15px; /* Adjust the value as needed */
-    overflow: hidden;
-    width: 300px; /* Ensure it matches the iframe width */
-    height: 536px; /* Ensure it matches the iframe height */
-    position: relative;
-}
-
-.img-wrapper iframe {
-    border-radius: 15px; /* Adjust the value as needed */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 /*Youtube Video Section End */
@@ -545,9 +313,7 @@ section.videos {
 section.aboutme {
     padding: 6rem 0;
 }
-section.about.aboutmeimg {
-    height: 450px;
-}
+
 
 section .left2 h1 {
     color: var(--pure);
@@ -583,3 +349,8 @@ section .left2 .logo1 {
 
 /* About me Section END */
 }
+
+@media (max-width: 1920px) {
+
+
+ 
