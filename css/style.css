@@ -71,8 +71,8 @@
 
 .prev-btn2 {
 
-/*     top: 261%;
-    right: 3rem; */
+    top: 261%;
+    right: 3rem;
 
 }
 
@@ -81,17 +81,17 @@
     left: 3rem; */
 }
 .prev-btn {
-/*     position: absolute;
+    position: absolute;
     top: 167%;
     right: 3rem;
-    z-index: 1; */
+    z-index: 1;
 }
 
 .next-btn {
-/*     position: absolute;
+    position: absolute;
     top: 167%;
     left: 3rem;
-    z-index: 1; */
+    z-index: 1;
 } 
 .btn-wrapper {
     padding-bottom: 3rem;
@@ -407,6 +407,12 @@ section .left2 h1 {
 section .left2 h1 span {
     color: var(--primary);
 }
+section .left2 h3 span {
+    color: var(--primary);
+}
+section.aboutme .left2 .social{
+    margin-Top: 2rem;
+}
 
 section.aboutme .left2 p {
     font-family: 'lato';
@@ -422,7 +428,7 @@ section .left2 .logo1 {
     max-width: 30px;
     height: auto;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     margin-right: 1rem;
     align-items: left;
     gap: 15px;
