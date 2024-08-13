@@ -68,7 +68,7 @@
 @media (max-width: 1920px)
 /* Next-previouse Buttons */
 {
-
+/* 
 .prev-btn2 {
 
     top: 261%;
@@ -91,7 +91,7 @@
     position: absolute;
     top: 167%;
     left: 3rem;
-    z-index: 1;
+    z-index: 1; */
 }
 .btn-wrapper {
     padding-bottom: 3rem;
