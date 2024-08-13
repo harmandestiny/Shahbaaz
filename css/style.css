@@ -93,9 +93,7 @@
     left: 3rem;
     z-index: 1; */
 } 
-.btn-wrapper {
-    padding-bottom: 3rem;
-}
+
 .right {
     margin-right: 9rem;
     gap: 13px;
@@ -271,16 +269,10 @@ button:hover {
     background-color: transparent;
     color: var(--pure);
   }
-.latest .slider-btn {
-    width: 30px;
-    height: 30px;
-    border: none;
-    background: var(--primary);
-    border-radius: 8px;
-    cursor: pointer;
-    outline: none;
+.btn-wrapper {
+    padding-bottom: 3rem;
+    gap: 10px;
 }
-
 .prev-btn {
 /*     position: absolute; */
     transform: translateY(-50%);
@@ -303,7 +295,7 @@ button:hover {
     border: none;
     border-radius: 100%;
     background-color: transparent;
-    margin: 0 1rem;
+    margin: 0;
   }
   .slider-btn:focus {
     outline: none;
@@ -371,7 +363,7 @@ button:hover {
     background: var(--primary);
     color: var(--dark);
     border-radius: 10px;
-    margin: 0 1rem;
+    margin: 0;
 }
 
 .btn-primary:hover {
