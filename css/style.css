@@ -71,27 +71,27 @@
 
 .prev-btn2 {
 
-    top: 261%;
-    right: 3rem;
+/*     top: 261%;
+    right: 3rem; */
 
 }
 
 .next-btn2 {
-    top: 261%;
-    left: 3rem;
+/*     top: 261%;
+    left: 3rem; */
 }
 .prev-btn {
-    position: absolute;
+/*     position: absolute;
     top: 167%;
     right: 3rem;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .next-btn {
-    position: absolute;
+/*     position: absolute;
     top: 167%;
     left: 3rem;
-    z-index: 1;
+    z-index: 1; */
 } 
 .btn-wrapper {
     padding-bottom: 3rem;
@@ -282,17 +282,17 @@ button:hover {
 }
 
 .prev-btn {
-    position: absolute;
+/*     position: absolute; */
     transform: translateY(-50%);
-    z-index: 1;
+/*     z-index: 1; */
     background-color: transparent;
     color: var(--primary);
 }
 
 .next-btn {
-    position: absolute;
+/*     position: absolute; */
     transform: translateY(-50%);
-    z-index: 1;
+/*     z-index: 1; */
     background-color: transparent;
   color: var(--primary);
   
@@ -303,6 +303,7 @@ button:hover {
     border: none;
     border-radius: 100%;
     background-color: transparent;
+    margin: 0 1rem;
   }
   .slider-btn:focus {
     outline: none;
@@ -310,17 +311,17 @@ button:hover {
   }
 
  .prev-btn2 {
-    position: absolute;
+/*     position: absolute; */
     transform: translateY(-50%);
-    z-index: 1;
+/*     z-index: 1; */
     background-color: transparent;
     color: var(--primary);
 }
 
 .next-btn2 {
-    position: absolute;
+/*     position: absolute; */
     transform: translateY(-50%);
-    z-index: 1;
+/*     z-index: 1; */
     background-color: transparent;
   color: var(--primary);
   
@@ -344,6 +345,7 @@ button:hover {
     border-radius: 8px;
     cursor: pointer;
     outline: none;
+    
 }
 
 
@@ -369,6 +371,7 @@ button:hover {
     background: var(--primary);
     color: var(--dark);
     border-radius: 10px;
+    margin: 0 1rem;
 }
 
 .btn-primary:hover {
